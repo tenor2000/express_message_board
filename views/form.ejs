@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title><%= title %></title>
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <form method="POST" action="/new">
+      <section>
+        <p>Message: </p>
+        <textarea type="text" name="text"></textarea>
+        <p>User:
+          <input type="text" name="user">
+        </p>
+      </section>
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
